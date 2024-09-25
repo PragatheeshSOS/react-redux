@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from './components/NavBar'
-import login from './components/Login'
+import Login from "./components/Login";
 
 const App = () => {
   return (

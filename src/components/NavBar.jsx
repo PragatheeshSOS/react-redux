@@ -1,9 +1,9 @@
 import React from "react";
-import {userSelector} from "react-redux"
+import {useSelector} from "react-redux"
 import {selectUser} from '../redux/userSlice'
 
 const NavBar = () => {
-    const userdata = userSelector(selectUser)
+    const userdata = useSelector(selectUser)
     return (
         <div>
             {userdata?.name || "Not Available"}
